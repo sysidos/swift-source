@@ -1,0 +1,21 @@
+set(MANDATORY_SOURCES
+  Mandatory/AccessEnforcementSelection.cpp
+  Mandatory/AccessMarkerElimination.cpp
+  Mandatory/AddressLowering.cpp
+  Mandatory/ConstantPropagation.cpp
+  Mandatory/DefiniteInitialization.cpp
+  Mandatory/DIMemoryUseCollectorOwnership.cpp
+  Mandatory/DataflowDiagnostics.cpp
+  Mandatory/DiagnoseInfiniteRecursion.cpp
+  Mandatory/DiagnoseStaticExclusivity.cpp
+  Mandatory/DiagnoseUnreachable.cpp
+  Mandatory/GuaranteedARCOpts.cpp
+  Mandatory/IRGenPrepare.cpp
+  Mandatory/MandatoryInlining.cpp
+  Mandatory/PredictableMemOpt.cpp
+  Mandatory/PMOMemoryUseCollector.cpp
+  Mandatory/SemanticARCOpts.cpp
+  Mandatory/ClosureLifetimeFixup.cpp
+  Mandatory/RawSILInstLowering.cpp
+  Mandatory/MandatoryOptUtils.cpp
+  PARENT_SCOPE)
